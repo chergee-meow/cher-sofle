@@ -1,7 +1,8 @@
 layout: {zmk_keyboard: sofle}
 layers:
   default: [TAB, '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', DELETE, LEFT SHIFT, Q, W, E, R, T, Y, U, I, O, P, KP ENTER, LEFT CONTROL, A, S, D, F, G, H, J,
-    K, L, ;, '''', MENU, Z, X, C, V, B, MUTE, '', N, M, ',', ., /, RIGHT ALT, COPY, UP ARROW, DOWN ARROW, lower, BACKSPACE, SPACE, raise, LEFT ARROW, RIGHT, PASTE]
+    K, L, ;, '''', AC COPY, Z, X, C, V, B, MUTE, KP ENTER, N, M, ',', ., /, AC PASTE, LEFT META, UP ARROW, DOWN ARROW, lower, BACKSPACE, SPACE, raise, LEFT ARROW,
+    RIGHT, RETURN]
   lower:
   - ESC
   - '!'
@@ -14,7 +15,7 @@ layers:
   - '*'
   - (
   - )
-  - '='
+  - KP ENTER
   - F1
   - F2
   - F3
@@ -27,31 +28,31 @@ layers:
   - F10
   - F11
   - F12
-  - TAB
-  - '!'
-  - '@'
-  - '#'
-  - $
-  - '%'
-  - ^
-  - '&'
-  - '*'
-  - (
-  - ':'
-  - '"'
-  - {t: ▽, type: trans}
-  - '='
+  - LEFT SHIFT
   - '-'
-  - KP PLUS
-  - '{'
-  - '}'
+  - _
+  - '='
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '['
   - ']'
-  - <
-  - '>'
-  - '?'
+  - \
+  - RIGHT SHIFT
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
