@@ -1,8 +1,8 @@
 layout: {zmk_keyboard: sofle}
 layers:
   default: [ESC, '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', DELETE, TAB, Q, W, E, R, T, Y, U, I, O, P, KP ENTER, LSHIFT, A, S, D, F, G, H, J, K, L, ;, '''',
-    LEFT CONTROL, Z, X, C, V, B, MUTE, KP ENTER, N, M, ',', ., /, RIGHT SHIFT, LEFT META, UP ARROW, DOWN ARROW, lower, BACKSPACE, SPACE, RETURN, LEFT ARROW, RIGHT,
-    raise]
+    LEFT CONTROL, Z, X, C, V, B, PLAY PAUSE, KP ENTER, N, M, ',', ., /, RIGHT SHIFT, LEFT META, UP ARROW, DOWN ARROW, lower, BACKSPACE, SPACE, RETURN, LEFT ARROW,
+    RIGHT, raise]
   lower:
   - ESC
   - '!'
